@@ -12,9 +12,11 @@ public class Alimentos extends AlmacenProductos implements AlimentoAgregable{
         estado=1;
         System.out.println("Ingrese el nombre del producto: ");
         nombreProd=scanner.nextLine();
+        System.out.println("Ingrese la marca del producto: ");
+        marca=scanner.nextLine();
         ingresarFechaVencimiento();
         calcularPrecio();
-        listaStock.add("Nombre del producto: "+nombreProd+"; Precio:$ "+precioVenta+"; Fecha de vencimiento: "+dia+"-"+mes+"-"+anio+".");
+        listaStock.add("Nombre del producto: "+nombreProd+"; Marca del alimento: "+marca+"; Precio:$ "+precioVenta+"; Fecha de vencimiento: "+dia+"-"+mes+"-"+anio+".");
     }
 
     @Override

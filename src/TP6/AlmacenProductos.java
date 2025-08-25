@@ -13,9 +13,11 @@ public abstract class AlmacenProductos {
     Scanner scanner = new Scanner(System.in);
     List<String> listaStock= new ArrayList<>();
     int eleccion=0;
+    String marca="";
 
     public AlmacenProductos() {
         this.nombreProd = nombreProd;
+        this.marca= marca;
         this.precioCompra= 0;
         this.estado=0;
         this.precioVenta= 0;

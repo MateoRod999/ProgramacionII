@@ -7,9 +7,11 @@ public class Electronicos extends AlmacenProductos implements ElectronicoAgregab
         estado=1;
         System.out.println("Ingrese el nombre del producto: ");
         nombreProd=scanner.nextLine();
+        System.out.println("Ingrese la marca del producto: ");
+        marca=scanner.nextLine();
         garantia();
         calcularPrecio();
-        listaStock.add("Nombre del producto: "+nombreProd+"; Precio:$ "+precioVenta+"; Periodo de garantia: "+periodoGarantia);
+        listaStock.add("Nombre del producto: "+nombreProd+"Marca del producto"+marca+"; Precio:$ "+precioVenta+"; Periodo de garantia: "+periodoGarantia);
 
     }
 

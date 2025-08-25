@@ -2,7 +2,6 @@ package TP6;
 
 public class Ropa extends AlmacenProductos implements RopaAgregable{
     String talle="";
-    String marca="";
 
     @Override
     void agregarProducto() {
