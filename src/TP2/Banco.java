@@ -74,9 +74,10 @@ public class Banco {
                 System.out.println("Ingreso una cuenta inexistente.\n\nRedirigiendo al login...\n\n");
             }
         }
-        while (acceso!=true);
+        while (!acceso);
 
-    };
+    }
+
     public static void depositar(double getSaldo) {
         System.out.println("Cuanto desea depositar: ");
         Scanner scanner = new Scanner(System.in);

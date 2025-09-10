@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class MainAlmacen {
 
     public static void main(String[] args) {
-        Ropa ropa = new Ropa();
-        Alimentos alimento = new Alimentos();
-        Electronicos electronico = new Electronicos();
+        Ropa ropa = new Ropa("Ropa");
+        Alimentos alimento = new Alimentos("Alimentos");
+        Electronicos electronico = new Electronicos("Electronicos");
         Scanner scanner= new Scanner(System.in);
-
         int opcion=0;
         while (opcion!=5){
             System.out.println("Bienvenido al Almacen del negocio.\nIngrese una opcion:\n1. Seccion ropa.\n2. Seccion alimentos.\n3. Seccion electronicos.\n4. Ver stock total del almacen.\n5. Salir.");

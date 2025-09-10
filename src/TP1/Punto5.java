@@ -24,6 +24,6 @@ public class Punto5 {
             } else if (x > 0 && y < 0) {
                 System.out.println("El punto que usted ingresó se encuentra en el cuarto cuadrante.");
             }
-        };
+        }
     }
 }

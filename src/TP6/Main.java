@@ -7,9 +7,9 @@ public class Main {
     int opcion=0;
         Scanner scanner1 = new Scanner(System.in);
 
-        SensorTemperatura sensor = new SensorTemperatura("Sensor 1");
-        CamaraDeSeguridad camara = new CamaraDeSeguridad("Camara 1");
-        AireAcondicionado aire = new AireAcondicionado("Aire 1");
+        SensorTemperatura sensor = new SensorTemperatura("Sensor de Temperatura");
+        CamaraDeSeguridad camara = new CamaraDeSeguridad("Camara de Seguridad");
+        AireAcondicionado aire = new AireAcondicionado("Aire acondicionado");
 
     while(opcion!=4){
         System.out.println("Bienvenido al menú de sus dispositivos configurables\nEscoja cual desea configurar: ");
